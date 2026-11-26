@@ -1,0 +1,36 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node / package managers
+node_modules/
+.pnpm-store/
+dist/
+build/
+coverage/
+.npm/
+
+# Expo / React Native
+.expo/
+expo-env.d.ts
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Logs
+*.log
+logs/
+
+# Temporary
+tmp/
+temp/
